@@ -36,7 +36,7 @@ system_git_clone() {
   sleep 2
 
 sudo su - deploy <<EOF
-  git clone -b main https://GBSOficial:${token_code}@github.com/GBSOficial/BotSystemPro.git /home/deploy/${instancia_add}
+  git clone -b main https://GBSOficial:${token_code}@github.com/GBSOficial/BotSystemBeta.git /home/deploy/${instancia_add}
 EOF
 
 
